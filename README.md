@@ -11,7 +11,7 @@ A mobile-first, GitHub Pages–deployable church class lookup built with React/V
 
 ## Local setup
 1. Create a Supabase project.
-2. In the Supabase SQL Editor, run `supabase/migrations/001_initial_schema.sql`, then optionally `supabase/seed.example.sql`.
+2. In the Supabase SQL Editor, run `supabase/migrations/001_initial_schema.sql` and then `supabase/migrations/002_add_child_name_search.sql`; optionally run `supabase/seed.example.sql`.
 3. Create the first administrator in Supabase Authentication (email/password), then run:
    ```sql
    insert into public.profiles(id, role) values ('AUTH_USER_UUID', 'admin');
