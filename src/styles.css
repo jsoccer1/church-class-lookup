@@ -4,3 +4,5 @@
 .divider{text-align:center;color:#58645f;margin:22px 0 -4px}.matches{margin-top:20px}.matches h2{font-size:1.1rem}.match{width:100%;display:flex;justify-content:space-between;align-items:center;text-align:left;background:#fff;color:#173f35;border:1px solid #b7c7c0;margin:8px 0}.match span{font-weight:500}.hint{color:#58645f;font-size:.9rem}
 
 select,textarea{font:inherit;padding:14px;border:1px solid #71827c;border-radius:8px;min-height:50px;background:#fff}textarea{min-height:96px;resize:vertical}.wide{grid-column:1/-1}.records article span{color:#46554e}.records article strong{min-width:160px}
+
+.setup-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.setup-grid form{margin:0;background:#fff;padding:16px;border-radius:10px;align-content:start}.setup-grid h3{margin:0}.setup-grid .text{text-align:left}
